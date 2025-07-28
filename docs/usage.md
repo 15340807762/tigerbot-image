@@ -87,17 +87,21 @@ TigerBot是由TigerResearch团队开发的高性能开源大模型，能够进�
 
 
 
-1. 运行代码
+运行代码
 
+```
 conda activate tigerbot  #激活虚拟环境
 
 cd /home/Tiger   #进入目标路径
+```
 
 运行web界面代码
 
+```
 export PYTHONPATH='./'
 
 streamlit run apps/web.py -- --model_path /home/TigerBot/model
+```
 
 然后使用IP+8501打开web网页，就可以进行问答了。
 
