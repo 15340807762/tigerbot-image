@@ -85,24 +85,30 @@ conda create -n tigerbot python=3.9
 
  
 
-下载源码 git clone https://github.com/TigerResearch/TigerBot
+```
+git clone https://github.com/TigerResearch/TigerBot
 
 cd TigerBot中将requirments.txt的flash-attn==2.1.1注释掉，因为这个是使用GPU时才需要安装的依赖。
 
 pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 
+ 
  
 
  
 
 ### **2.下载模型**
 
+```
 pip install modelscope -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 modelscope download --model TigerResearch/tigerbot-7b-chat-v3  --local_dir model/tigerbot-7b
 
 modelscope download --model TigerResearch/tigerbot-7b-base-v3  --local_dir model/tigerbot-7b-base-v3
+```
 
+ 
  
 
 这个模型下载在TigerBot路径下输入命令，然后就会将模型下载到TigerBot/model下。模型下载如下图所示。
@@ -130,18 +136,23 @@ modelscope download --model TigerResearch/tigerbot-7b-base-v3  --local_dir model
 
 原来web_demo.py的运行代码为：
 
+```
 export PYTHONPATH='./' 
 
 streamlit run apps/web_demo.py -- --model_path /home/TigerBot/model/tigerbot-7b
+```
 
  
+
 Web.py运行代码如下：
 
+```
 export PYTHONPATH='./'  #确保能够找到模块和包
 
 streamlit run apps/web.py -- --model_path /home/TigerBot/model
+```
 
-运行之后的结果是这个就说明成功启动了，这里需要注意，需要将8501端口添加到安全组。
+运行之后的结果是这个就说明成功启动了。
 
 ![img](images/img_2.png) 
 
