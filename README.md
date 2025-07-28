@@ -18,6 +18,6 @@
 
 
 
-- 华为云云商店：[TigerBot聊天助手使用指南](https://github.com/HuaweiCloudDeveloper/tigerbot-image/blob/TigerBot-kunpeng/docs/usage.md)
+- 华为云云商店：[TigerBot聊天助手使用指南](./docs/usage.md)
 
 更多问题可通过 [**issue**](https://github.com/HuaweiCloudDeveloper/tigerbot-image/issues) 或 **华为云云商店指定商品的服务支持** 与我们取得联系。
