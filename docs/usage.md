@@ -74,7 +74,7 @@ TigerBot是由TigerResearch团队开发的高性能开源大模型，能够进�
 > **值得注意的是：**
 >
 > - VPC 您可以自行创建
-> - 安全组选择 [**准备工作**](https://github.com/HuaweiCloudDeveloper/qdrant-image/blob/Qdrant-1.14.0-kunpeng/docs/usage.md#准备工作) 中配置的安全组；
+> - 安全组选择 [**准备工作**](#准备工作) 中配置的安全组；
 > - 弹性公网IP选择现在购买，推荐选择“按流量计费”，带宽大小可设置为5Mbit/s；
 > - 高级配置需要在高级选项支持注入自定义数据，所以登录凭证不能选择“密码”，选择创建后设置；
 > - 其余默认或按规则填写即可。
