@@ -107,5 +107,5 @@ streamlit run apps/web.py -- --model_path /home/TigerBot/model
 
 
 
-[TigerBot官网]([TigerResearch/TigerBot: TigerBot: A multi-language multi-task LLM](https://github.com/TigerResearch/TigerBot))
+[TigerBot官方文档](https://github.com/TigerResearch/TigerBot/blob/main/README.md)
 
