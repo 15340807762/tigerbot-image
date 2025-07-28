@@ -145,7 +145,7 @@ streamlit run apps/web.py -- --model_path /home/TigerBot/model
 
 ![img](images/img_2.png) 
 
-然后打开http://123.249.104.17:8501网页
+然后打开http://ip:8501网页
 
 ![img](images/img_3.png) 
 ![img](images/img_4.png) 
