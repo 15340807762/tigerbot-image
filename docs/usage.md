@@ -101,7 +101,7 @@ streamlit run apps/web.py -- --model_path /home/TigerBot/model
 
 然后使用IP+8501打开web网页，就可以进行问答了。
 
-![img.png](images/img_3.png)
+![img.png](images/img_4.png)
 
 ### 参考文档
 
