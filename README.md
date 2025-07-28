@@ -15,7 +15,7 @@
 - [Get Help](#get-help)
 - [How to Contribute](#how-to-contribute)
 
-## Rroject Introduction
+## Project Introduction
 
 
 
